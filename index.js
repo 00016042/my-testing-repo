@@ -6,6 +6,7 @@ const entrollmentsRoute = require('./routes/enrollments');
 const app = express();
 const mongoose = require('mongoose');
 
+
 mongoose.connect('mongodb://localhost/virtualdars', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     console.log('MongoDBga ulanish hosil qilindi...');
